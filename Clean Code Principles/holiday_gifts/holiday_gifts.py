@@ -10,9 +10,11 @@
 
 """
 Use pylint and Autopep8 to format python code
+Author: Evidence
+Date: 9/14/2021
 """
 
-import numpy as np
+import numpy as np #type: ignore
 
 
 def gift_cost(gift_cost_path):
