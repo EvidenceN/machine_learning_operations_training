@@ -1,5 +1,6 @@
 import logging
 
+# Logging levels "info, warning, error"
 logging.basicConfig(
     filename='./results.log',
     level=logging.INFO,
