@@ -1,3 +1,11 @@
+import logging
+
+logging.basicConfig(
+    filename='./results.log',
+    level=logging.INFO,
+    filemode='w',
+    format='%(name)s - %(levelname)s - %(message)s')
+
 def divide_vals(numerator, denominator):
     '''
     Args:
